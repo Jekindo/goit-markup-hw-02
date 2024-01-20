@@ -48,11 +48,19 @@ ul {
   color: var(--primary-brand-color);
 }
 
-.logo.dark > span {
+/* .logo.dark > span {
   color: var(--dark-color);
 }
 
 .logo.light > span {
+  color: var(--light-color);
+} */
+
+.logo-accent.dark {
+  color: var(--dark-color);
+}
+
+.logo-accent.light {
   color: var(--light-color);
 }
 
