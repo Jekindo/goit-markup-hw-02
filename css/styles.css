@@ -48,15 +48,12 @@ ul {
   color: var(--primary-brand-color);
 }
 
-.logo.dark {
+.logo.dark > span {
   color: var(--dark-color);
 }
 
-.logo.light {
+.logo.light > span {
   color: var(--light-color);
-}
-
-.logo > span {
 }
 
 /* Site nav */
@@ -111,6 +108,7 @@ ul {
 .page-title {
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
 
   color: var(--page-title-color);
@@ -120,6 +118,7 @@ ul {
 .section-title {
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
 
   color: var(--dark-color);
@@ -140,6 +139,8 @@ ul {
 .work-list .title {
   font-size: 20px;
   font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 
   color: var(--dark-color);
 }
