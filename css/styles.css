@@ -36,26 +36,16 @@ ul {
   list-style-type: none;
 }
 
-/* Utils */
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 /* Logo */
 .logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  color: var(--primary-brand-color);
 }
 
 .logo.dark {
@@ -67,7 +57,6 @@ ul {
 }
 
 .logo > span {
-  color: var(--primary-brand-color);
 }
 
 /* Site nav */
@@ -83,6 +72,10 @@ ul {
 }
 
 /* Contacts */
+.contacts {
+  font-style: normal;
+}
+
 .contact-list .link {
   color: currentColor;
 }
@@ -100,6 +93,7 @@ ul {
 /* Button */
 .button {
   font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.04em;
 
   background-color: var(--primary-brand-color);
